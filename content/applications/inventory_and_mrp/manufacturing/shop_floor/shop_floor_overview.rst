@@ -18,7 +18,7 @@ Access Shop Floor
 
 - Click the :guilabel:`Shop Floor` module icon from the main Odoo dashboard.
 - Click the :icon:`oi-view-kanban` :guilabel:`Shop Floor` smart button on a manufacturing order.
-  This will open the manufacturing order in the *Shop Floor* module.
+  This opens the manufacturing order in the *Shop Floor* module.
 
 Activating work centers
 =======================
@@ -47,7 +47,7 @@ First, open the *Shop Floor* app from either the main Odoo dashboard or from the
 :icon:`oi-view-kanban` :guilabel:`Shop Floor` smart button on a manufacturing order.
 
 Click the :icon:`fa-navicon` :guilabel:`(menu)` icon, then click :icon:`fa-arrow-circle-down`
-:guilabel:`Install App`. A new window will open. Click the :guilabel:`Install` button to install the
+:guilabel:`Install App`. A new window opens. Click the :guilabel:`Install` button to install the
 app in the workstation's browser.
 
 Navigation
@@ -132,13 +132,13 @@ which opens an *Options* pop-up window with additional options for the |MO|:
   work order, then click the :guilabel:`Back to ShopFloor` button.
 
   .. note::
-   Additional components are consumed in the *Shop Floor* module, but their stock moves will not be
-   validated until the |MO| is closed.
+     Additional components are consumed in the *Shop Floor* module, but their stock moves are not
+     validated until the |MO| is closed.
 
-- :guilabel:`Add By-product`: Add a product that will be created as a byproduct of this work order.
+- :guilabel:`Add By-product`: Add a product that is created as a byproduct of this work order.
   This displays when the :guilabel:`By-Products` setting is enabled in the *Manufacturing* app.
 - :guilabel:`Open Manufacturing Order`: opens the |MO| in the *Manufacturing* app.
-- :guilabel:`Log Note`: Enter a note that will be visible in the *Shop Floor* module and throughout
+- :guilabel:`Log Note`: Enter a note that is visible in the *Shop Floor* module and throughout
   all steps on the shop floor.
 
 .. image:: shop_floor_overview/mo-card.png
@@ -260,7 +260,8 @@ before orders which are scheduled further out.
 To specify the scheduled date on an |MO|, begin by navigating to :menuselection:`Manufacturing app
 --> Operations --> Manufacturing Orders`, and click :guilabel:`New` to create a new |MO|.
 
-To learn more about the fields on the |MO| form, see :ref:`manufacturing/basic_setup/create-mo`.
+To learn more about the fields on the |MO| form, see
+:ref:`manufacturing/manufacturing-orders/create-mo`.
 
 Click on the :guilabel:`Scheduled Date` field to open a calendar popover window. By default, the
 :guilabel:`Scheduled Date` field and its corresponding pop-up window show the current date and time.
