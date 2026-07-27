@@ -36,49 +36,6 @@ In order to allocate time off to employees, and for employees to request and use
 various :doc:`time off types must be configured <time_off/time_off_types>` first, then
 :doc:`allocated <time_off/allocations>` to employees (if allocation is required).
 
-Mandatory days
---------------
-
-Some companies have special days where specific departments, or the entire staff, is required to be
-present, and time off is not allowed on those specific days.
-
-These types of days are called *mandatory days* in Odoo. These can be configured to be company-wide,
-or department specific. When configured, employees in the specified department or company are unable
-to submit time off requests for these mandatory days.
-
-Create mandatory days
-~~~~~~~~~~~~~~~~~~~~~
-
-No mandatory days are configured in Odoo by default. To create a mandatory day, navigate to
-:menuselection:`Time Off app --> Configuration --> Mandatory Days`.
-
-Click the :guilabel:`New` button in the top-left corner, and a blank line appears in the list.
-
-Enter the following information on that new line:
-
-- :guilabel:`Name`: Enter the name of the mandatory day.
-- :guilabel:`Company`: If in a multi-company database, this field is visible, and the current
-  company populates this field, by default. Using the drop-down menu, select the company the
-  mandatory day is for.
-- :guilabel:`Departments`: This column is hidden by default. First, click the
-  :icon:`oi-settings-adjust` :guilabel:`(additional options)` icon in the top-right corner, next to
-  :guilabel:`Color`, and then tick the checkbox next to :guilabel:`Departments` to reveal that
-  column.
-
-  Next, select the desired departments from the drop-down menu. Multiple departments can be
-  selected, and there is no limit to the amount of departments that can be added.
-
-  If this field is left blank, the mandatory day applies to the entire company.
-- :guilabel:`Start Date`: Using the calendar picker, select the date the mandatory day starts.
-- :guilabel:`End Date`: Using the calendar picker, select the date the mandatory day ends. If
-  creating a single mandatory day, the end date should be the same as the start date.
-- :guilabel:`Color`: If desired, select a color from the available presented options. If no color is
-  desired, select the `No color` option, represented by a white box with. The selected color appears
-  on the main **Time Off** app dashboard, in both the calendar and in the legend.
-
-.. image:: time_off/mandatory.png
-   :alt: The Mandatory Days section with three configured days.
-
 Overview
 ========
 
@@ -124,9 +81,10 @@ the time off request in a modal, click the :guilabel:`View` button.
 
 .. seealso::
    - :doc:`time_off/time_off_types`
-   - :doc:`time_off/public_holidays`
-   - :doc:`time_off/allocations`
    - :doc:`time_off/accrual_plans`
+   - :doc:`time_off/public_holidays`
+   - :doc:`time_off/mandatory_days`
+   - :doc:`time_off/allocations`
    - :doc:`time_off/request_time_off`
    - :doc:`time_off/my_time`
    - :doc:`time_off/management`
@@ -136,9 +94,10 @@ the time off request in a modal, click the :guilabel:`View` button.
    :titlesonly:
 
    time_off/time_off_types
-   time_off/public_holidays
-   time_off/allocations
    time_off/accrual_plans
+   time_off/public_holidays
+   time_off/mandatory_days
+   time_off/allocations
    time_off/request_time_off
    time_off/my_time
    time_off/management
