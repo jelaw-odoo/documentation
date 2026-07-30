@@ -338,7 +338,21 @@ is a special function that *hook into* the internals of the component. In the ca
 hook functions have to be called in the `setup` method, and no later!
 
 
+<<<<<<< eef211780a1ca0b4a196558d313ecfa886448eff
 .. flowchart LR
+||||||| 7320765f47b8423ce690cbe7f0791cdb4ac76d19
+   #. Focus the `input` from the previous exercise when the dashboard is `mounted
+      <{OWL_PATH}/doc/reference/component.md#mounted>`_. This this should be done from the
+      `TodoList` component.
+   #. Bonus point: extract the code into a specialized `hook <{OWL_PATH}/doc/reference/hooks.md>`_
+      `useAutofocus` in a new :file:`owl_playground/utils.js` file.
+=======
+   #. Focus the `input` from the previous exercise when the dashboard is `mounted
+      <{OWL_PATH}/doc/reference/component.md#mounted>`_. This should be done from the
+      `TodoList` component.
+   #. Bonus point: extract the code into a specialized `hook <{OWL_PATH}/doc/reference/hooks.md>`_
+      `useAutofocus` in a new :file:`owl_playground/utils.js` file.
+>>>>>>> 073f7b1138df8ebeefdede4fe5c5a644537d3572
 
 ..     classDef hook fill:#ccf
 
